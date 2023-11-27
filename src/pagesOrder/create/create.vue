@@ -114,7 +114,7 @@ const onOrderSubmit = async () => {
             <view class="pay-price symbol">{{ item.payPrice }}</view>
             <view class="price symbol">{{ item.price }}</view>
           </view>
-          <view class="count">x{{ item.count }}</view>
+          <view class="count">{{ item.count }}</view>
         </view>
       </navigator>
     </view>
